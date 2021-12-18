@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import CheckLogged from './checkLogged.canActivate';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,12 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
     RouterModule.forRoot([
       {
         path: '', component: LoginComponent, canActivate: []
+      },
+      {
+        path: 'pagina-principal', component: PaginaPrincipalComponent, canActivate: []
       }
     ]),
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
