@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    background-color: #40E0D0;
 }
 
 .login {
@@ -21,7 +22,7 @@
     align-items: center;
     width: 30%;
     height: 50%;
-    border: solid 1px #6A5ACD;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -34,8 +35,9 @@
     width: auto;
     height: auto;
     outline: none;
-    border: solid 1px #6A5ACD;
+    border: none;
     border-radius: 10px;
+    background-color: #DCDCDC;
 }
 
 .button {
@@ -46,8 +48,8 @@
     padding: 10px;
     width: auto;
     height: auto;
-    border: solid 1px #6A5ACD;
+    border: none;
     border-radius: 10px;
-    color: #6A5ACD;
-    background-color: white;
+    color: #ffffff;
+    background-color: #40E0D0;
 }

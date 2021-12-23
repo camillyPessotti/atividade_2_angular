@@ -1,13 +1,19 @@
 <div class="container">
-    <div class="button">
-        <button>Pedidos</button>
+    <div class="buttons">
+        <div class="button">
+            <button (click)='pedidos()'>Pedidos</button>
+        </div>
+
+        <div class="button">
+            <button (click)='produtos()'>Produtos</button>
+        </div>
+
+        <div class="button">
+            <button (click)='clientes()'>Clientes</button>
+        </div>
     </div>
 
     <div class="button">
-        <button>Produtos</button>
-    </div>
-
-    <div class="button">
-        <button>Clientes</button>
+        <button (click)='voltar()'>Voltar</button>
     </div>
 </div>

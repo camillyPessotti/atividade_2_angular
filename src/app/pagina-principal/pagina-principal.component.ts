@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginComponent } from '../login/login.component';
-import { Routes, RouterModule } from '@angular/router'
+import { Routes, RouterModule, Router } from '@angular/router'
 
 @Component({
   selector: 'app-pagina-principal',
@@ -9,9 +9,27 @@ import { Routes, RouterModule } from '@angular/router'
 })
 export class PaginaPrincipalComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
+  }
+
+  pedidos(){
+
+  }
+
+  produtos(){
+
+  }
+
+  clientes(){
+    
+  }
+
+  voltar(){
+    this.router.navigate([''])
   }
 
 }

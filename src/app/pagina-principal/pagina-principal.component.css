@@ -14,6 +14,12 @@
     position: absolute;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     padding: 10px;
 }
@@ -22,8 +28,8 @@
     padding: 10px;
     width: auto;
     height: auto;
-    border: solid 1px #6A5ACD;
+    border: none;
     border-radius: 10px;
-    color: #6A5ACD;
-    background-color: white;
+    color: #ffffff;
+    background-color: #40E0D0;
 }

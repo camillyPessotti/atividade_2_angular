@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import CheckLogged from './checkLogged.canActivate';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import CheckLogged from './checkLogged.canActivate';
       }
     ]),
     BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

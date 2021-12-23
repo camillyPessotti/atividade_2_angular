@@ -11,8 +11,9 @@ class CheckLogged implements CanActivate {
         console.log('DENTRO')
 
         let user = localStorage.getItem('user');
+        let password = localStorage.getItem('password')
 
-        if (user) {
+        if (user && password) {
             return true;
         } else {
             this.router.navigate(['/'])
