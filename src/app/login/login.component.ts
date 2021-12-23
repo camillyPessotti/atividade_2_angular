@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
-import { timeStamp } from 'console';
 
 @Component({
   selector: 'app-login',
@@ -10,9 +9,9 @@ import { timeStamp } from 'console';
 export class LoginComponent implements OnInit {
 
   list = [
-    {user: 'camilly', password: 123},
-    {user: 'Diego', password: 321},
-    {user: 'Bruna', password: 12345}
+    {user: 'Camilly', password: 123},
+    {user: 'Diego', password: 123},
+    {user: 'Bruna', password: 123}
   ]
 
   user = '';
